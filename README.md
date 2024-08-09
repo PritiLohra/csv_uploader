@@ -1,4 +1,3 @@
-```markdown
 ## Overview
 
 This project is a Django-based web application that allows users to upload CSV files, perform data analysis using pandas and numpy, and display the results and visualizations on the web interface.
@@ -13,9 +12,7 @@ This project is a Django-based web application that allows users to upload CSV f
 - **Data Visualization**: Generates histograms for numerical columns using matplotlib and seaborn.
 - **User Interface**: A simple and user-friendly interface to display data analysis results and visualizations.
 
-## Setup Instructions
-
-1. **Install Dependencies**
+## Install Dependencies
 
    Ensure you have the following libraries installed:
 
@@ -23,7 +20,7 @@ This project is a Django-based web application that allows users to upload CSV f
    pip install django pandas numpy matplotlib seaborn
    ```
 
-2. **Start the Django Project**
+## Start the Django Project
 
    ```bash
    django-admin startproject csv_analysis
@@ -31,7 +28,7 @@ This project is a Django-based web application that allows users to upload CSV f
    python manage.py startapp analysis
    ```
 
-3. **Run the Development Server**
+## Run the Development Server
 
    Start the Django development server:
 
